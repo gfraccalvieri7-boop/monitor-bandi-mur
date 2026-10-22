@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+# Le email dei destinatari NON vanno mai nel repository: stanno nel secret DESTINATARI
+destinatari.txt
