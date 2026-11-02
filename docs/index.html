@@ -6,18 +6,59 @@
 <meta name="robots" content="noindex">
 <title>Bandi aperti ECON</title>
 <style>
-:root { --bg:#f6f7f9; --text:#1d2330; --muted:#5d6675; }
-@media (prefers-color-scheme: dark) { :root { --bg:#14171c; --text:#e6e8eb; --muted:#9aa3b0; } }
+:root { --bg:#f6f7f9; --card:#fff; --text:#1d2330; --muted:#5d6675; --line:#e2e5ea;
+        --accent:#1f5f99; --urgent:#c0392b; --new:#1e8449; --chip:#eef2f7; }
+@media (prefers-color-scheme: dark) {
+  :root { --bg:#14171c; --card:#1d2128; --text:#e6e8eb; --muted:#9aa3b0; --line:#2c323b;
+          --accent:#6aa9e0; --urgent:#ff7b6b; --new:#58c785; --chip:#262b33; } }
+* { box-sizing:border-box; }
 body { margin:0; background:var(--bg); color:var(--text);
        font:15px/1.5 -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
-main { max-width:860px; margin:0 auto; padding:24px 16px; }
-p { color:var(--muted); }
+main { max-width:860px; margin:0 auto; padding:24px 16px 48px; }
+h1 { font-size:1.5rem; margin:0 0 4px; }
+.sub { color:var(--muted); margin:0 0 20px; }
+nav, .filters { display:flex; flex-wrap:wrap; gap:8px; margin-bottom:12px; }
+nav a, .filters button { background:var(--chip); color:var(--text); border:1px solid var(--line);
+       border-radius:999px; padding:5px 12px; font-size:.9rem; text-decoration:none; cursor:pointer; }
+.filters button.on { background:var(--accent); border-color:var(--accent); color:#fff; }
+section { margin-top:28px; }
+h2 { font-size:1.2rem; border-bottom:2px solid var(--accent); padding-bottom:4px; }
+h2 small { color:var(--muted); font-weight:normal; }
+h3 { font-size:1rem; color:var(--muted); margin:18px 0 8px; }
+.card { background:var(--card); border:1px solid var(--line); border-radius:8px;
+        padding:12px 14px; margin-bottom:10px; }
+.card a { color:var(--accent); font-weight:600; text-decoration:none; overflow-wrap:anywhere; }
+.card a:hover { text-decoration:underline; }
+.ente { font-weight:700; }
+.meta { color:var(--muted); font-size:.88rem; margin-top:4px; }
+.urgent { color:var(--urgent); font-weight:700; }
+.badge { display:inline-block; font-size:.72rem; font-weight:700; color:#fff; background:var(--new);
+         border-radius:4px; padding:1px 6px; margin-right:6px; vertical-align:2px; }
+.empty { color:var(--muted); font-style:italic; }
+footer { color:var(--muted); font-size:.85rem; margin-top:40px; }
 </style>
 </head>
 <body>
 <main>
 <h1>Bandi aperti &middot; ECON-06/A, ECON-09/A, ECON-09/B</h1>
-<p>La pagina verrà riempita al prossimo controllo riuscito del sito bandi.mur.gov.it.</p>
+<p class="sub">Aggiornato il 02/11/2026 alle 16:13 &middot; 10 bandi aperti &middot; in rosso le scadenze entro 7 giorni</p>
+<nav><a href='#econ-06-a'>ECON-06/A (7)</a><a href='#econ-09-a'>ECON-09/A (1)</a><a href='#econ-09-b'>ECON-09/B (4)</a></nav>
+<div class="filters"><button class='on' data-tipo='*'>Tutte le tipologie</button><button data-tipo='Ricercatori a tempo determinato (RTT / RTD)'>Ricercatori a tempo determinato (RTT / RTD)</button><button data-tipo='Contratti di ricerca'>Contratti di ricerca</button><button data-tipo='Incarichi di ricerca'>Incarichi di ricerca</button><button data-tipo='Incarichi post-doc'>Incarichi post-doc</button><button data-tipo='Professori associati e ordinari'>Professori associati e ordinari</button></div>
+<section id='econ-06-a'><h2>ECON-06/A <small>Economia aziendale</small></h2><div class='tipo-block' data-tipo='Ricercatori a tempo determinato (RTT / RTD)'><h3>Ricercatori a tempo determinato (RTT / RTD) (2)</h3><div class='card'><span class='ente'>&quot;Parthenope&quot; NAPOLI</span><br><a href='https://bandi.mur.gov.it/jobs.php/public/job/id_job/153425' target='_blank' rel='noopener'>bando RTT- 2 posti DIGIU- OTT26</a><div class='meta'>scade il 16/11/2026 - alle ore 23:59 (tra 14 giorni) &middot; il bando comprende anche altri 1 settori</div></div><div class='card'><span class='ente'>Univ. Bocconi MILANO</span><br><a href='https://bandi.mur.gov.it/jobs.php/public/job/id_job/152643' target='_blank' rel='noopener'>Assistant Professor nel Dipartimento di Accounting (ECON-06/A)</a><div class='meta'>scade il 20/11/2026 - alle ore 23:59 (tra 18 giorni)</div></div></div><div class='tipo-block' data-tipo='Contratti di ricerca'><h3>Contratti di ricerca (1)</h3><div class='card'><span class='ente'>Univ. Bocconi MILANO</span><br><a href='https://bandi.mur.gov.it/contrattidiricerca.php/public/fellowship/id_fellow/319215' target='_blank' rel='noopener'>CONCORSO A N. 1 CONTRATTO DI RICERCA, GRUPPI 13/ECON-06 ECONOMIA AZIENDALE e 13/ECON-09 ECONOMIA DEGLI INTERMEDIARI FINANZIARI E FINANZA AZIENDALE, CENTRO GREEN, UNIVERSITÀ COMMERCIALE “LUIGI BOCCONI” DI MILANO</a><div class='meta'>scade il 20/11/2026 - alle ore 23:59 (tra 18 giorni)</div></div></div><div class='tipo-block' data-tipo='Incarichi di ricerca'><h3>Incarichi di ricerca (4)</h3><div class='card'><span class='ente'>Univ. BOLOGNA</span><br><a href='https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/319067' target='_blank' rel='noopener'>Mappatura locale della spesa per interventi assistenziali</a><div class='meta'><span class='urgent'>scade il 03/11/2026 - alle ore 23:59 (domani)</span></div></div><div class='card'><span class='ente'>Univ. BERGAMO</span><br><a href='https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/318512' target='_blank' rel='noopener'>Procedura pubblica di selezione per 1 incarico di ricerca</a><div class='meta'><span class='urgent'>scade il 05/11/2026 - alle ore 23:59 (tra 3 giorni)</span></div></div><div class='card'><span class='ente'>SC. GASTRONOMICHE</span><br><a href='https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/319030' target='_blank' rel='noopener'>WRT FUTURA</a><div class='meta'>scade il 13/11/2026 - alle ore 23:59 (tra 11 giorni)</div></div><div class='card'><span class='ente'>ROMA &quot;La Sapienza&quot;</span><br><a href='https://bandi.mur.gov.it/incarichidiricerca.php/public/fellowship/id_fellow/319234' target='_blank' rel='noopener'>Attività di ricerca nel SSD ECON-06/A Economia aziendale - Bando di cui al codice concorso DEI-IDR1/2026</a><div class='meta'>scade il 19/11/2026 - alle ore 23:59 (tra 17 giorni) &middot; posti: 1</div></div></div></section>
+<section id='econ-09-a'><h2>ECON-09/A <small>Finanza aziendale</small></h2><div class='tipo-block' data-tipo='Contratti di ricerca'><h3>Contratti di ricerca (1)</h3><div class='card'><span class='ente'>Univ. Bocconi MILANO</span><br><a href='https://bandi.mur.gov.it/contrattidiricerca.php/public/fellowship/id_fellow/319215' target='_blank' rel='noopener'>CONCORSO A N. 1 CONTRATTO DI RICERCA, GRUPPI 13/ECON-06 ECONOMIA AZIENDALE e 13/ECON-09 ECONOMIA DEGLI INTERMEDIARI FINANZIARI E FINANZA AZIENDALE, CENTRO GREEN, UNIVERSITÀ COMMERCIALE “LUIGI BOCCONI” DI MILANO</a><div class='meta'>scade il 20/11/2026 - alle ore 23:59 (tra 18 giorni)</div></div></div></section>
+<section id='econ-09-b'><h2>ECON-09/B <small>Economia degli intermediari finanziari</small></h2><div class='tipo-block' data-tipo='Contratti di ricerca'><h3>Contratti di ricerca (1)</h3><div class='card'><span class='ente'>Univ. Bocconi MILANO</span><br><a href='https://bandi.mur.gov.it/contrattidiricerca.php/public/fellowship/id_fellow/319215' target='_blank' rel='noopener'>CONCORSO A N. 1 CONTRATTO DI RICERCA, GRUPPI 13/ECON-06 ECONOMIA AZIENDALE e 13/ECON-09 ECONOMIA DEGLI INTERMEDIARI FINANZIARI E FINANZA AZIENDALE, CENTRO GREEN, UNIVERSITÀ COMMERCIALE “LUIGI BOCCONI” DI MILANO</a><div class='meta'>scade il 20/11/2026 - alle ore 23:59 (tra 18 giorni)</div></div></div><div class='tipo-block' data-tipo='Incarichi post-doc'><h3>Incarichi post-doc (1)</h3><div class='card'><span class='ente'>ROMA &quot;La Sapienza&quot;</span><br><a href='https://bandi.mur.gov.it/incarichipostdoc.php/public/fellowship/id_fellow/319100' target='_blank' rel='noopener'>La Financial Flexibility quale fattore strategico nel Portfolio Management</a><div class='meta'>scade il 15/11/2026 - alle ore 23:59 (tra 13 giorni) &middot; posti: 1</div></div></div><div class='tipo-block' data-tipo='Professori associati e ordinari'><h3>Professori associati e ordinari (2)</h3><div class='card'><span class='ente'>Univ. BERGAMO</span><br><a href='https://bandi.mur.gov.it/profcalls.php/public/job/id_job/153203' target='_blank' rel='noopener'>Procedura pubblica di selezione per n. 3 posti di professore universitario di prima fascia, art. 18, c. 1 - Codice PICA: 26PO003 (Professore di prima fascia )</a><div class='meta'><span class='urgent'>scade il 09/11/2026 - alle ore 12:00 (tra 7 giorni)</span> &middot; il bando comprende anche altri 2 settori</div></div><div class='card'><span class='ente'>LUISS G.Carli ROMA</span><br><a href='https://bandi.mur.gov.it/profcalls.php/public/job/id_job/153603' target='_blank' rel='noopener'>posizione per un professore ordinario nel Dipartimento di Accounting and corporate finance (Professore di prima fascia )</a><div class='meta'>scade il 19/11/2026 - alle ore 14:00 (tra 17 giorni)</div></div></div></section>
+<footer>Fonte: <a href="https://bandi.mur.gov.it/">bandi.mur.gov.it</a>. Un bando con più settori compare
+in ciascuno dei vostri settori. Ex SECS-P/07 = ECON-06/A, SECS-P/09 = ECON-09/A, SECS-P/11 = ECON-09/B.</footer>
 </main>
+<script>
+const buttons = document.querySelectorAll('.filters button');
+buttons.forEach(btn => btn.addEventListener('click', () => {
+  buttons.forEach(b => b.classList.toggle('on', b === btn));
+  const t = btn.dataset.tipo;
+  document.querySelectorAll('.tipo-block').forEach(el => {
+    el.hidden = t !== '*' && el.dataset.tipo !== t;
+  });
+}));
+</script>
 </body>
 </html>
