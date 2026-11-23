@@ -262,5 +262,17 @@
   "titolo": "IR N.3 IMIOT PZ - “BLUE TECH”, codice identificativo progetto DTA.AD004.830 - CUP: G92I25000040007",
   "ente": "CNR - Istituto di metodologie per l'analisi ambientale",
   "tipo": "Incarichi di ricerca"
+ },
+ "/incarichidiricerca.php/public/fellowship/id_fellow/320702": {
+  "visto_il": "2026-11-23",
+  "titolo": "Financial Inclusion e Economic Development",
+  "ente": "Univ. BOLOGNA",
+  "tipo": "Incarichi di ricerca"
+ },
+ "/profcalls.php/public/job/id_job/154305": {
+  "visto_il": "2026-11-23",
+  "titolo": "DISA - RIF. O18C4terI2026/2045/R23 - GSD: 13/ECON-06 - SSD: ECON-06/A (Professore di prima fascia )",
+  "ente": "Univ. BOLOGNA",
+  "tipo": "Professori associati e ordinari"
  }
 }
