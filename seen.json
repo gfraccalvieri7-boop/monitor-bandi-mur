@@ -286,5 +286,23 @@
   "titolo": "SELEZIONE PUBBLICA PER 1 INCARICO DI RICERCA DELLA DURATA DI 12 MESI PRESSO IL  DIPARTIMENTO DI SCIENZE BIOMEDICHE E CLINICHE, AI SENSI DELL’ART. 22 TER DELLA LEGGE  240/2010",
   "ente": "Univ. MILANO",
   "tipo": "Incarichi di ricerca"
+ },
+ "/jobs.php/public/job/id_job/154783": {
+  "visto_il": "2026-11-27",
+  "titolo": "Gestione del rischio di credito e stabilità finanziaria: il ruolo della leveraged finance nel sostegno alle imprese, la propagazione degli shock creditizi e le implicazioni per la resilienza degli intermediari e dei mercati",
+  "ente": "Univ. PERUGIA",
+  "tipo": "Ricercatori a tempo determinato (RTT / RTD)"
+ },
+ "/contrattidiricerca.php/public/fellowship/id_fellow/320880": {
+  "visto_il": "2026-11-27",
+  "titolo": "Selezioni pubbliche per titoli e colloquio per il conferimento di n. 7 contratti di ricerca ai sensi dell’art. 22 della L. 240/2010, come modificato dalla L. 79/2022, codice CR14_2026",
+  "ente": "Univ. NAPOLI",
+  "tipo": "Contratti di ricerca"
+ },
+ "/contrattidiricerca.php/public/fellowship/id_fellow/321042": {
+  "visto_il": "2026-11-27",
+  "titolo": "CONCORSO A N. 1 CONTRATTO DI RICERCA, GRUPPI 13/ECON-01, 13/ECON-03, 13/ECON-04, 13/ECON-09, 07/AGRI-01, CENTRO GREEN, UNIVERSITÀ COMMERCIALE “LUIGI BOCCONI” DI MILANO",
+  "ente": "Univ. Bocconi MILANO",
+  "tipo": "Contratti di ricerca"
  }
 }
